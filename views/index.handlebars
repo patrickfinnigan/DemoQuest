@@ -1,0 +1,79 @@
+{{!-- <div id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 offset-2">
+        <h1>{{msg}}</h1>
+        <h2>This is our Home Page!</h2>
+        <form class="clearfix mb-4" action="POST">
+          <div class="form-group">
+            <label for="example-text">Example Text</label>
+            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text">
+          </div>
+          <div class="form-group">
+            <label for="example-description">Example Description</label>
+            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>
+          </div>
+          <button id="submit" class="btn btn-primary float-right">Submit</button>
+        </form>
+        <h3>Examples:</h3>
+        <ul id="example-list" class="list-group">
+          {{#each examples}}
+          <li data-id="{{this.id}}" class="list-group-item">
+            <a href="example/{{this.id}}">{{this.text}}</a>
+            <button class="btn btn-danger float-right delete">ｘ</button>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> --}}
+
+
+<body>
+    <!-- <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">DemoQuest</span>
+    </nav> -->
+    
+   
+    <div class="topnav">
+        <h1>DemoQuest</h1>
+    </div>
+    <br>
+    <br>
+
+    <!-- <button type="button" class="btn btn-primary btn-lg">Click to Play!</button> -->
+    <br>
+    <br> 
+
+        <!-- <div class="content">
+        <p>Game Info Here</p>
+        <br>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <img src="styles/instructions.png" alt="instructions" width="500" height="700">
+<br>
+<br>
+<img src="styles/commands.png" alt="commands" width="300" height="700"> -->
+<br>
+<div class="absolute">
+<div id="game-text" class="game-text"><p></p></div>
+</div>
+<br>
+<br>
+<br><br>
+<br>
+
+    <div class="footer">
+    
+            <input type="text" id="user-input" class="user-input">
+        
+            <!-- <div id="out" style="overflow:auto"></div> -->
+            
+    <h4>by Patrick Finnigan, Luis Perez & Lyn Vierra</h4>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+   
+<script src="/js/index.js"></script>
